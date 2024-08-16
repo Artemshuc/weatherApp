@@ -49,3 +49,18 @@ button:hover {
   border: 1px solid black;
   border-radius: 10px;
 }
+
+.day {
+  background-image: url('../../images/day.avif');
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.night {
+  background-image: url('../../images/night.avif');
+  background-size: cover;
+  background-position: center;
+  color: aliceblue;
+  border: none;
+}

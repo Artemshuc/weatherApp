@@ -19,7 +19,7 @@ function Forecast({ city }) {
           "x-rapidapi-host": API_HOST,
         },
       };
-
+      
       try {
         const response = await axios.request(options);
         setForecast(response.data);
